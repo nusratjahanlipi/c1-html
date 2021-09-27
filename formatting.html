@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 2px solid black;
+            padding: 5px;
+        }
+        table{
+            border-spacing:15px ;
+        }
+        ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #CC9999;
+	}
+	li {
+		float: left;
+	}
+	li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 16px;
+		text-decoration: none;
+	}
+    li a:hover {
+		background-color: #111111;
+	}
+    </style>
+</head>
+<body>
+    <p> Normal text</p>
+    <p><b>bold text</b></p>
+    <p><del>Delete text</del></p>
+    <p><em>Emphasize text</em></p>
+    <p><i>italic text</i></p>
+    <p><ins>Inserts text</ins></p>
+    <p><pre> pre=This tag is used to display text exactly by saving space and blank lines.</pre></p>
+    <p><small> small=Refers to relatively short text.</small></p>
+    <p><strong> strong=Refers to important text.</strong></p>
+    <p> sup=(a+b)<sup>2</sup></p>
+    <p sub=>HO<sub>2</sub></p>
+    <p>html <mark>text</mark> formatting</p>
+    <p><abbr title="lorem12345">abbreviation elemant</abbr> Lorem ipsum dolor sit amet.</p>
+    <address>
+        Name:Nusrat<br>
+        kaliakoir,gazipur<br>
+        Dhaka,Bangkadesh
+    </address>
+    <blockquote cite="https://bn.wikipedia.org/s/924">
+        বাংলাদেশ দক্ষিণ এশিয়ার একটি ছোট রাষ্ট্র। বাংলাদেশের সাংবিধানিক নাম গণপ্রজাতন্ত্রী বাংলাদেশ। ভূ-রাজনৈতিকভাবে বাংলাদেশের পশ্চিম, উত্তর ও পূর্ব সীমান্তে ভারত, দক্ষিণ-পূর্ব সীমান্তে মায়ানমার ও দক্ষিণ উপকূলের দিকে বঙ্গোপসাগর অবস্থিত। বাংলাদেশের ভূখণ্ড ভৌগোলিকভাবে একটি উর্বর ব-দ্বীপের অংশ বিশেষ।
+        </blockquote>
+        <p>code element use:,</p>
+        <code>
+            var a = 5;<br>
+            var b = 6;<br>
+            document.getElementsByTagName("li").innerHTML = a * b;
+        </code>
+        <!--kbd-->
+        <p>kbd keybord input :</p>
+        <p><kbd>File | Open...</kbd></p>
+        <p>samp:</p><!--samp-->
+        <samp>
+            demo.example.com login: Apr 12 09:10:17
+            Linux 2.6.10-grsec+gg3+e+fhs6b+nfs+gr0501+++p3+c4a+gr2b-reslog-v6.189
+            </samp>
+            <p>var= <var>E</var> = <var>m</var><var>c</var><sup>2</sup></p>
+            <table style="width:100%">
+                <caption>Students information:</caption>
+                <tr>
+                    <th>Name</th>
+                    <th>Fathers name</th>
+                    <th>addese</th>
+                </tr>
+                <tr>
+                    <td>তামিম</td>
+                    <td>৭</td>
+                    <td>মতিহার, রাজশাহী</td>
+                </tr>
+                <tr>
+                    <td>তাহমিদ</td>
+                    <td>৩</td>
+                    <td>মতিহার, রাজশাহী</td>
+                </tr>
+                <tr>
+                    <td>মাসুদ রানা</td>
+                    <td>৫</td>
+                    <td>মতিঝিল, ঢাকা</td>
+                </tr>
+            </table>
+            <h4>unoder list:</h4>
+	<ul style="list-style-type: decimal;">
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Cold-Drinks</li>
+	</ul>
+    <h4>order list:</h4>
+	<ol type="A">
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Cold-Drinks</li>
+	</ol>
+    <h4>Deink list:</h4>
+	<dl>
+		<dt>Coffe</dt>
+			<dd> - black hot drink</dd>
+		<dt>Milk</dt>
+			<dd> - white cold drink</dd> 
+            <h4>Nested list:</h4>
+    </dl>
+	<ul>
+		<li>Coffee</li>
+		<li>Tea
+			<ul>
+				<li>Black Tea</li>
+				<li>Green Tea</li>
+			</ul>
+		</li>
+		<li>Cold-Drinks</li>
+	</ul>
+    <h4>menu making</h4>
+	<ul>
+		<li><a class="active" href="#home">হোম</a></li>
+		<li><a href="#news">News</a></li>
+		<li><a href="#contact">song</a></li>
+		<li><a href="#about">video</a></li>
+	</ul>
+</body>
+</html>
